@@ -1,0 +1,519 @@
+*
+{
+    padding:0;
+    margin:0;
+    color: rgba(0, 0, 0, 0.675);
+}
+.navbar{
+    height: 60px;
+    background-color: #9adfff;
+    border-style: initial;
+}
+.card
+{
+    padding-top: 20px;
+    background-color: aliceblue;
+    height:400px;
+    width:400px;
+    background-clip: border-box;
+    /* backdrop-filter: blur(500 px); */
+    background: rgba(243, 247, 249, 0.9);
+    border-radius: 20px;
+}
+button
+{
+    background-color: rgb(10, 24, 26);
+    height: 40px;
+    width: 80px;
+    font-weight: bold;
+    color:rgb(197, 214, 230);
+    border-radius: 0.5 em;
+}
+input
+{
+    flex: auto;
+    justify-content: center;
+}
+.loginid
+{
+    width: 160px;
+    height: 25px;
+
+}
+.password
+{
+    width: 160px;
+    height: 25px;
+
+}
+.button:hover{
+    filter: brightness(0.9);
+}
+.button:active
+{
+    transform: translateY(2px);;
+}
+.logo
+{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.711);
+    font-size: 50px;
+    margin-right: 1000px;
+    padding-left: 10px;
+}
+/* Css for second page*/
+/* .secondbox
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    height: 50px;
+    width: 1500px;
+    background-color: white;
+    padding-top: 1%;
+    margin-bottom: 180px;
+} */
+.secondbox{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    /* background-color: yellow; */
+}
+.backpage
+{
+    flex: 0 0 auto;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: center; 
+    background-color: purple;
+    /* color: white; */
+    margin:5px
+    /* height: 50p
+    width:100px; */
+}
+.settings
+{
+    /* margin-left:800px; */
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    background-color: white;
+    margin: 5px;
+    /* width:1000px; */
+    font-size: 24px;
+}
+#img
+{
+    padding-top: 50px;
+    margin-top:40px;
+}
+.secondbody
+{
+    background-position: 50%;
+    background-image:url(pencil.jpg);
+    background-size:1500px
+    
+}
+.big-box
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+    background: rgb(243, 247, 249, 0.9);
+    margin-top:100px;
+    /* display:inline-block; */
+    /* padding: 50px; */
+    margin-bottom: 175px;
+    width: 1200px;
+}
+.box
+{
+    font-weight:bold;
+    color:black;
+    font-size:25px;
+    margin-right:1000px;
+    /* padding-left:100px; */
+    height:250px;
+    display: inline-block;
+    width:100%;
+}
+.footer
+{
+    background-color: #9adfff;
+    
+}
+a{
+    color: rgba(0, 0, 0, 0.67);
+    font-size: 20px;
+   margin-right: 20px;
+}
+h1 {
+    color:hwb(227 12% 59% / 0.734);
+}
+.mainbody{
+    margin:right 50px;
+    background-image: url(online.avif);
+    /* background-position: 50%; */
+    bottom:0%;
+    top:50%
+    backface-visibility:visible;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.student-selector
+{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    display: inline-block;
+    margin-right: 100px;
+}
+.instructor-selector
+{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.bgimage
+{
+    background-image: url(online.avif);
+}
+.settings
+{
+    margin-left:90%;
+}
+.studentheader
+{
+    font-weight: bold;
+    background-color: rgb(107, 185, 224);
+    font-size: 50px;
+    margin-right: 1000px;
+    padding-left: 10px;
+    text-align:inherit;
+}
+.studentbody
+{
+    background-image: url(bkimg.jpg);
+    background-size: 2500px;
+}
+.studentbox
+{
+    margin-top: 5%;
+    margin-left: 20%;
+    padding-top: 20px;
+    background-color: rgba(245, 245, 245,0.5);
+    height:600px;
+    width:1000px;
+    background-clip: border-box;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-content: center;
+}
+.studentdetail
+{
+    background-image: url(student.jpeg);
+    height: 50%;
+    width: 50%;
+    background-size:auto;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+.studentresource
+{
+    background-image: url(available.jpeg);
+    /* background-color:rgba(243, 247, 249, 0.9); */
+    height:50%;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.notes
+{
+    background-image: url(bookstack.jpeg);
+    /* background-color: rgba(243, 247, 249, 0.9); */
+    height:50%;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+.references
+{
+    background-image: url(references.jpeg);
+    /* background-color: rgba(243, 247, 249, 0.9); */
+    background-position: center;
+    height:50%;
+    width:50%;
+    /* padding:0%; */
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.studentpanel
+{
+    color:rgba(215, 237, 247,0.9);
+    /* height: 60px; */
+    /* background-color: #9adfff; */
+    border-style:initial;
+    width:100%;
+}
+.stuinfo
+{
+    font-size: larger;
+    background-image:url(simply.jpg);
+    backface-visibility:visible;
+    background-size:auto;
+    background-repeat:no-repeat;
+}
+.h1
+{
+    color:White;
+}
+.table
+{
+    display:flex;
+    margin-top: 3%;
+    padding-top: 50px;
+    background-color: rgba(245, 245, 245,0.5);
+    background-clip: border-box;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-content: center;
+    align-content:left;
+    border-collapse:collapse;
+    border-spacing:100px;
+    border:2px ;
+    font-size:1 rem;
+    letter-spacing: 50%;
+    width: 1200px;
+    height:900px;
+}
+table
+{
+    padding-top: 50px;
+    background-color: rgba(245, 245, 245,0.5);
+    border-radius: 20px;
+    border-collapse:separate;
+    border:2px ;
+    font-size:1 rem;
+    letter-spacing: 50%;
+    width: 900px;
+    height:800px;
+}
+th,td{
+    margin:50px;
+    border: 2px;
+    background: #a2c6dc;
+    padding: 100px,50px; 
+    text-align: center;
+}
+.container
+{
+    display: flex;
+    justify-content: flex-end;
+    padding:10px;
+}
+.goback
+{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.newbox
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top: 10%;
+}
+.b
+{
+    height:300px;
+    width:300px;
+    background-color:#a2c6dc;
+}
+.availablebody
+{
+    background-image: url(pen.jpg);
+    background-size: cover;
+    backface-visibility: visible;
+    background-repeat: no-repeat;
+}
+.font
+{
+    color:white;
+    font-size:50px;
+}
+#availablenotes
+{
+    background-image: url(noteicon.jpg);
+    background-size: contain;
+    margin-right: 5%;
+}
+#videolecture
+{
+    background-image:url(vediolecture.jpeg);
+    background-size:contain;
+}
+.newbox
+{
+    margin-top: 0%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.headbox
+{
+    display: flex;
+    height:50px;
+    width:1500px;
+    background-color: #acbfea;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+.heading1
+{
+    color:black;
+}
+.backpage
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height:50px;
+    width:150px;
+    background-color: rgb(236, 240, 239);
+    font-size: 30px;
+}
+.midbox
+{
+    background-image:url(bookish.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:10%;
+    height:400px;
+    width:1200px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    background-color: rgba(47, 93, 201, 0.9);
+}
+.upload1
+{
+    margin-top:3%;
+    margin-left: 3%;
+    height:300px;
+    width:300px;
+    background-image: url(noteicon.jpg);
+    background-repeat: no-repeat;
+}
+.upload2
+{
+    margin-top:3%;
+    margin-left: 3%;
+    height:300px;
+    width:300px;
+    background-image: url(vediolecture.jpeg);
+    background-repeat: no-repeat;
+}
+.upload3
+{
+    margin-top:3%;
+    margin-left: 3%;
+    height:300px;
+    width:300px;
+    background-image: url(chit.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.upload4
+{
+    margin-top:3%;
+    margin-left: 3%;
+    margin-right:3%;
+    height:300px;
+    width:300px;
+    background-image:url(bookstack.jpeg);
+    background-repeat: no-repeat;
+}
+.bgimage
+{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.newbody
+{
+    background-image: url(bookish.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slidingwindow
+{
+    /*
+    background-color:white;
+    color: black; */
+    position: fixed;
+    transform:translate(-50%,-50%);
+    top:15%;
+    margin-left:50%;
+    width:1500px;
+    height:50px;
+    text-align: center;
+    /* background-color:plum; */
+}
+#quote
+{
+    font-size:30px;
+    font-weight:bold;
+    color:black;
+}
+@keyframes moveUp
+{
+    0%{ transform:translateY(0); }
+    50%{ transform: translateY(-10px); }
+    100%{ transform: translateY(0) }; 
+}
+.move-animation
+{
+    animation: moveUp 3s ease-in-out infinite;
+}
+#stuquote
+{
+    font-size:30px;
+    font-weight:bold;
+    color:black;
+}
+@keyframes moveUp
+{
+    0%{ transform:translateY(0); }
+    50%{ transform: translateY(-10px); }
+    100%{ transform: translateY(0) }; 
+}
+.move-animation
+{
+    animation: moveUp 3s ease-in-out infinite;
+}
